@@ -1,0 +1,50 @@
+.Technology {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .Technology-image {
+    width: 80px;
+    text-align: center;
+
+    svg {
+      width: 80px;
+    }
+  }
+
+  .Technology-info {
+    margin-left: 40px;
+    flex-grow: 1;
+
+    h1 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
+      background: #333;
+      color: #fff;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    h2 {
+      font-size: 18px;
+      color: #666;
+
+      & > div {
+        display: inline-block;
+        margin-right: 30px;
+
+        & > div {
+          display: flex;
+          align-items: center;
+
+          svg {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.Separator {
+  position: relative;
+  height: 24px;
+  margin-bottom: 20px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 0;
+    width: 100%;
+    border-top: 1px dashed #999;
+    z-index: 1;
+  }
+
+  span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 18px;
+    background: #fff;
+    z-index: 10;
+  }
+}
