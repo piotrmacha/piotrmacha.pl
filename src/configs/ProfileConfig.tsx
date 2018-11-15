@@ -3,7 +3,7 @@ import * as React from "react";
 const ProfileConfig = {
     name: 'Piotr Macha',
     location: 'Katowice, Poland',
-    email: 'me@piotrmacha.pl',
+    email: 'pmacha@owls.company',
     photo: 'https://i.imgur.com/hP1ZqCT.png',
     title: 'Full-Stack Software Developer',
     social: [
