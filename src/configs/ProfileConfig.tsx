@@ -4,7 +4,7 @@ const ProfileConfig = {
     name: 'Piotr Macha',
     location: 'Katowice, Poland',
     email: 'pmacha@owls.company',
-    photo: 'https://i.imgur.com/hP1ZqCT.png',
+    photo: 'https://s3.eu-central-1.amazonaws.com/public-storage-eu/piotrmacha-photo/me.2018.2.500.500.jpg',
     title: 'Full-Stack Software Developer',
     social: [
         {
